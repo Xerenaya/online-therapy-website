@@ -22,8 +22,8 @@ h1, h2, h3 {
 .main-header {
     background-color: #ffffff; /* Clean white header */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow for elegance */
-    position: sticky;
-    top: 0;
+    /* REMOVED: position: sticky; and top: 0; */
+    /* This makes the header behave normally: it scrolls away with the content. */
     z-index: 100;
 }
 nav {
